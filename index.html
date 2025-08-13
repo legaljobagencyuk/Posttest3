@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file for styling -->
+    <title>User Form</title>
+</head>
+<body>
+    <h1>User Account Form</h1>
+    <form id="userForm"> <!-- Form for user input -->
+        <label for="accountName">Account Name:</label>
+        <input type="text" id="accountName" name="accountName" required> <!-- Input for account name -->
+
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" name="accountNumber" required> <!-- Input for account number -->
+
+        <label for="transactionReference">Transaction Reference:</label>
+        <input type="text" id="transactionReference" name="transactionReference" required> <!-- Input for transaction reference -->
+
+        <label for="pin">PIN:</label>
+        <input type="password" id="pin" name="pin" required> <!-- Input for PIN -->
+
+        <button type="submit">Submit</button> <!-- Submit button -->
+    </form>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
