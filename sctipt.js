@@ -10,7 +10,7 @@ document.getElementById('userForm').addEventListener('submit', async function(ev
 
     try {
         // Send a POST request to the serverless function API with the user data
-        const response = await fetch('https://your-vercel-url/api', {
+        const response = await fetch('https://posttest3.vercel.app/api', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', // Set the content type to JSON
